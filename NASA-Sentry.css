@@ -1,0 +1,37 @@
+#neo-window {
+  background-color: black;
+}
+
+#sun {
+  fill: yellow;
+}
+
+.rock {
+  fill: white;
+  transform-style: preserve-3d;
+}
+
+.orbit {
+  fill: rgb(0, 0, 0, 0);
+  stroke-width: 2;
+}
+
+#asteroid {
+  stroke: darkgray;
+}
+
+#mercury {
+  stroke: orange;
+}
+
+#venus {
+  stroke: yellow;
+}
+
+#earth {
+  stroke: blue;
+}
+
+#mars {
+  stroke: red;
+}
