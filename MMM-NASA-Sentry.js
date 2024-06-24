@@ -13,7 +13,6 @@ Module.register("MMM-NASA-Sentry", {
     let now = new Date();
     let dateDeets = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
     let date = `${now.getFullYear()}-${(now.getMonth() + 1).toString(10).padStart(2, "0")}-${now.getDate().toString(10).padStart(2, "0")}`;
-    //let apiKey = "5vazSSk4PA2NQ3kGm9NkMLOsvCOFkkOZ75MQJmxz"
     let apiKey = this.config.apiKey;
     fetch(`https://api.nasa.gov/neo/rest/v1/feed?start_date=${date}&end_date=${date}&api_key=${apiKey}`)
     .then(function(response) {
