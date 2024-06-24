@@ -14,3 +14,7 @@ git clone https://github.com/dkallen78/MMM-NASA-Sentry.git
 | `apiKey`  | Your NASA API key | 
 
 If you don't have a NASA API key, you can get one for free [here](https://api.nasa.gov/).
+
+## More to come
+
+Next up I'll be adding some text to give context to what's displayed on the screen
