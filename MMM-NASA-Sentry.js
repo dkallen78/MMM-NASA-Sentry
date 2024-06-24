@@ -86,7 +86,9 @@ Module.register("MMM-NASA-Sentry", {
         return orbit;
       }
 
-      let svgSize = 500;
+      let divBox = neoWindow.getBoundingClientRect();
+      //let svgSize = 500;
+      let svgSize = divBox.height * .66666666;
       let semiMajor = parseFloat(obj.orbital_data.semi_major_axis);
       let e = parseFloat(obj.orbital_data.eccentricity);
       let semiMinor = findSemiMinor(semiMajor, e);
