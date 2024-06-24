@@ -127,7 +127,7 @@ Module.register("MMM-NASA-Sentry", {
           let asteroid = makeOrbit(semiMajor, e, iDeg, node, argOfPer, orbtPeriod, "asteroid");
         neoDiv.appendChild(neoSvg);
 
-        let neoWindow = document.getElementById("neo-window");
+        //let neoWindow = document.getElementById("neo-window");
         neoWindow.appendChild(neoDiv);
     }
 
