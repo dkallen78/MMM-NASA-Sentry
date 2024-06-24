@@ -9,6 +9,7 @@ Module.register("MMM-NASA-Sentry", {
   getDom: function() {
 
     let neoWindow = document.createElement("div");
+    neoWindow.id = "neo-window";
 
     let now = new Date();
     //let dateDeets = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
